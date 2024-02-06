@@ -26,8 +26,9 @@ main section {
     text-align: center;
 }
 
-#backgoround {
+#background {
     height: 725px;
+    background-color: brown;
 }
 
 header {
@@ -52,15 +53,10 @@ nav a:hover {
     color: #136F63;
 }
 
-#background {
-    background-color: white;
-}
-
 .msg {
     font-family: Courier;
     background-color: #136F63;
-    
-    
+
 }
 
 .msg h2 {
@@ -124,7 +120,7 @@ img.logo {
     width: 200px;
 }
 
-img#hero-img {
+#hero-img {
     width: 100%;
 }
 
