@@ -43,7 +43,7 @@ main section {
 }
 
 header {
-    background-color: #136F63;
+    background-color: #136F6355;
     color: #D4AC0D;
     display: grid;
     grid-template-columns: 150px auto;
@@ -237,7 +237,7 @@ img.mountains {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.river-card {
+.rivers-card {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
     margin: 200px 0;
@@ -307,7 +307,7 @@ main section img {
     .home-title {
         font-size: 25px;
     }
-    .river-card, .camping-card, .rapids-card {
+    .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;
         width: 60%;
     }
