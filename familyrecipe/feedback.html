@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
     <style>
         body {
@@ -46,7 +48,6 @@
             color: #ff9914;
         }
     </style>
-</head>
 
 <body>
     <div id="content">
@@ -54,7 +55,7 @@
 
             <nav>
                 <a id="logo_link" href="index.html">
-                    <img class="logo" src="images/Johnson-Boice recipe-logo.png" alt="Johnson-Boice Family logo"></a>
+                    <img class="logo" src="images/Johnson-Boice-recipe-logo.png" alt="Johnson-Boice Family logo"></a>
                 <a href="index.html">Home</a>
                 <a href="johnson-family.html">Johnson Family</a>
                 <a href="boice-family.html">Boice Family</a>
@@ -66,8 +67,8 @@
 
         <div class="container">
             <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="fname">*First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -82,8 +83,8 @@
                     <option value="honduras">Honduras</option>
                 </select>
 
-                <label for="reason">Reason</label>
-                <select type="list" id="reason" name="reason">
+                <label for="reason">*Reason</label>
+                <select id="reason" name="reason" required>
                     <option value="" disabled selected hidden>Reason for contacting us...</option>
                     <option value="thoughts">Thoughts</option>
                     <option value="new recipie">New Recipie</option>
@@ -91,8 +92,9 @@
                     <option value="other">Other</option>
                 </select>
 
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something life changing.." style="height:200px"></textarea>
+                <label for="subject">*Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something life changing.." style="height:200px"
+                    required></textarea>
 
                 <input type="submit" value="Submit">
             </form>
@@ -104,6 +106,7 @@
 
         </footer>
     </div>
+
 </body>
 
 </html>
