@@ -14,6 +14,7 @@ body {
     background-color: #ff9914;
 }
 
+/* Header and menu tab */
 header{
     background-color: #F21B3F;
 
@@ -53,6 +54,8 @@ nav a:hover {
     color: #F21B3F;
 }
 
+/* Main menu page */
+
 h1{
     text-align: center;
 }
@@ -83,6 +86,31 @@ img {
     
 }
 
+/* Page 1 and 2  */
+
+.left_img {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.right_img {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+}
+
+img.left {
+    flex: 0 0 auto;
+}
+
+img.right {
+    flex: 0 0 auto;
+}
+
+
+
+/* Footer */
 footer {
     background-color: #F21B3F;
 }
