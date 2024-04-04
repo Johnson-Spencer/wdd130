@@ -120,7 +120,7 @@ img.right {
 
 h3 {
     text-align: center;
-
+    font-size: 3em;
 }
 
 
@@ -128,6 +128,7 @@ h3 {
 /* Footer */
 footer {
     background-color: #F21B3F;
+    padding-top: 20px;
 }
 
 footer a {
